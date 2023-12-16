@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome</title>
+        <!-- <link rel="stylesheet" href="C:\Users\Manan Shukla\OneDrive - Indus University\Desktop\Training\assignment-1\assets\css\styles.css"> -->
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            #main{
+                display: flex;
+                height: calc(100vh - 10px);
+                width: calc(100vw - 10px);
+            }
+            #left-main{
+                position: relative;
+                height: 100%;
+                width: 70%;
+                background-color: azure;
+            }
+
+            #right-main{
+                position: relative;
+                height: 100%;
+                width: 30%;
+                /* background-color: aqua; */
+                
+            }   
+            #left-image{
+                height: 100%;
+                width: 60%;
+                border-radius:50% ;
+                 
+            }
+            #left-container{
+                position: relative;
+                height: 70%;
+                width: 70%;
+                align-items: center;
+                justify-content: center;
+                /* border: 10px solid black; */
+                display: flex;
+                flex-direction: column;
+                top:10%;
+                left:10%;
+                
+                
+            }
+            #left-image{
+                left: 10%;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                color: antiquewhite;
+                margin-top: 10px;
+            }
+            .left-content{
+                
+                /* margin-right: 0px; */
+                display: -webkit-box;
+                justify-content: center;
+                align-self:center;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+
+            }             
+            #image-container{
+                display: flex;
+                float: top;
+                height: 40%;
+                width: 50%;
+                
+
+            }
+            #login-content{
+                display: block;
+            }
+            #content-container{
+                display: flex;
+                
+            }
+            #login-default{
+                position: relative;
+            }
+           
+          .tab-container{
+            display: none;
+          }
+          .tab-container:first-child{
+            display: block;
+          }
+          .tab-container:target{
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: gray;
+          }
+        #form{
+            height: 100%;
+            width: 100%;
+        }
+        #links{
+            position: relative;
+            height: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+
+        }
+        #wrapper{
+            height: calc(100% - 50px);
+            width: 100%;
+            position: relative;
+            display: flex;
+        }
+
+        #link1{
+            justify-content: center;
+            align-items: center;
+            padding-left: 30px;
+            padding-top: 10px;
+            /* align-self: center; */
+            border-right: 3px solid black ;
+            width: 50%;
+            /* flex-direction: column; */
+        }
+        #link2{
+            justify-content: center;
+            align-items: center;
+            padding-left: 30px;
+            padding-top: 10px;
+            /* align-self: center; */
+            width: 50%;
+            /* flex-direction: column; */
+            /* right: 30%; */
+        }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="left-main">
+                <div id="left-container">
+                    <div id="image-container">
+                        <img id="left-image" src="https://t3.ftcdn.net/jpg/05/56/96/58/360_F_556965805_RW0EfWwDn180uF7MPFVTwrPKqtNE3JI8.jpg" alt="welcome image"/>
+                    </div>
+                <br><div id="content-container">
+                    <p class="left-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                       It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+                       with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                    
+                    
+                </div>
+                
+            </div>
+            <div id="right-main">
+                <div class="form" style=" border: 2px solid black; width: 50%; height: 50%; ">
+                    <div id="links">
+                        <a href="#login-default" id="link1">Login</a>
+                        <a href="#register" id="link2">Register</a>
+                    </div>
+                    <div id="wrapper">
+
+                    
+                        <div id="login-default" class="tab-container">
+                            <input type="text" id="uname2" placeholder="Enter placeholder:"/>
+                            <input type="text" id="pass2" placeholder="Enter pass:"/> 
+                            <input type="button" id="login-submit" value="submit"/>
+                        </div>
+                        <!-- <div id="login">
+                            <input type="text" id="uname1" placeholder="Enter placeholder:"/>
+                            <input type="text" id="pass1" placeholder="Enter pass:"/> 
+                        </div> -->
+            
+                        <div id="register" class="tab-container">
+                            <input type="text" id="uname" placeholder="Enter placeholder:"/>
+                            <input type="text" id="pass" placeholder="Enter pass:"/>
+                            <input type="text" id="email" placeholder="Enter email:"/>  
+                            <input type="button" id="register-submit" value="submit"/>  
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>
