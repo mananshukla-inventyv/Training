@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.left-main{
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 70%;
+    border: 4px solid black;
+}
+
+.right-main{
+    display: flex;
+    float: right;
+    height: 100%;
+    width: 30%;
+    
+}
