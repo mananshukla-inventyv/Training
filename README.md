@@ -58,7 +58,8 @@ This section involves creating and visualizing flowcharts for various programmin
 - multiply_n_nu...
 - Rectangle_Area...
 
-  ##### Figjam Flowchart Link:https://www.figma.com/file/RwevewSu69bS9Z3HvB3pb9/Training-Flowcharts?type=whiteboard&node-id=0%3A1&t=Tw28iKD6dXCy593V-1
+  ##### Figjam Flowchart Link:
+    https://www.figma.com/file/RwevewSu69bS9Z3HvB3pb9/Training-Flowcharts?type=whiteboard&node-id=0%3A1&t=Tw28iKD6dXCy593V-1
 
 # What's in this repo: 
 This repository showcases the developer's skills in HTML, HTTP (Node.js, JSON server), and JavaScript (including recursion). The Logic Building Flowcharts provide insight into the developer's problem-solving and program visualization abilities. Each task is organized within its respective directory for easy navigation and review. For specific details on each task, refer to the corresponding directory's README file.
