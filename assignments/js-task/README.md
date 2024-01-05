@@ -1,1 +1,1 @@
-# Pascal task
+# Javascript tasks
