@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Aarav",
+    "age": 25,
+    "skills": [
+      "Java",
+      "C#"
+    ],
+    "position": "Sr. Software Developer",
+    "experiance(y)": 5
+  }
+]
