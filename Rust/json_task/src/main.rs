@@ -32,7 +32,7 @@ fn main() {
                       if data[i].position==Some("Software Developer".to_string()) && data[i].skills.contains(&"Java".to_string()){
                         jr_and_java.push(data[i].clone());
                       }
-                      if data[i].position==Some("Sr. Software Developer".to_string()) && data[i].skills.contains(&"C#".to_string()){
+                      if data[i].position==Some("Sr. Software Developer".to_string()) || data[i].skills.contains(&"C#".to_string()){
                         sr_or_c.push(data[i].clone());
                       }
                     }
