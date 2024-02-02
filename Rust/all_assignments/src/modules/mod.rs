@@ -10,3 +10,4 @@ pub mod employee_hashmap;
 pub mod student_hashmap;
 pub mod table_hashmap;
 pub mod practice;
+pub mod thread_task;
