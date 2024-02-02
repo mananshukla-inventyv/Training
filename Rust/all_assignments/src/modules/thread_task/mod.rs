@@ -34,7 +34,7 @@ pub fn thread_task(){
 
     let t2=thread::spawn(move ||loop {
         thread::sleep(Duration::from_secs(5));
-        println!("{:#?}",ref1.read().unwrap().len());
+        println!("{:#?}",ref1.read().unwrap());
     });    
     
     
@@ -93,7 +93,16 @@ pub fn generate_random_name_and_id()->(String,i32){
     ];
     let rnd_value =rand::thread_rng().gen_range(0..100);
 
+    let name_rng:u8=rand::thread_rng().gen_range(5..11);
+    
+    let mut name:String=String::new();
+    name.push((rand::thread_rng().gen_range(65..91) as u8) as char);
+    for i in 1..name_rng {
+        let ascii_val=rand::thread_rng().gen_range(97..123) as u8;
+        name.push(ascii_val as char);
+    }
     let rnd_index =rand::thread_rng().gen_range(0..names.len());
-    (names[rnd_index].to_string(),rnd_value)
+    // (names[rnd_index].to_string(),rnd_value)
+    (name,rnd_value)
     
 }
