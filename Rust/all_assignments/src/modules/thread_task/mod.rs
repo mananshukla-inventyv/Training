@@ -1,74 +1,77 @@
-use std::{sync::{Arc,RwLock}, thread, time::{Duration, SystemTime}};
 use rand::Rng;
+use std::{
+    sync::{Arc, RwLock},
+    thread,
+    time::{Duration, SystemTime},
+};
 #[derive(Debug)]
-pub struct Data{
-    pub id:i32,
-    pub name:String,
-    pub time_stamp:SystemTime
+pub struct Data {
+    pub id: i32,
+    pub name: String,
+    pub time_stamp: SystemTime,
 }
 
-pub fn thread_task(){
+pub fn thread_task() {
     // let (tx,rx)=mpsc::channel();
     let shared_resource = RwLock::new(Vec::new());
-    let arc=Arc::new(shared_resource);
-    let ref1=Arc::clone(&arc);
-    let ref2=Arc::clone(&arc);
-    let ref3=Arc::clone(&arc);
-    let count=1;
-    // let count_arc=Arc::new(count);
-    
+    let arc = Arc::new(shared_resource);
+    let ref1 = Arc::clone(&arc);
+    let ref2 = Arc::clone(&arc);
+    let ref3 = Arc::clone(&arc);
 
-    let t1=thread::spawn(move ||loop {
+    let t1 = thread::spawn(move || loop {
         thread::sleep(Duration::from_secs(1));
-        match ref2.write(){
-            Ok(mut write_data)=>{
-                let (rnd_name,rnd_value) =generate_random_name_and_id();
-                write_data.push(Data{id:rnd_value,name:rnd_name,time_stamp:SystemTime::now()});
+        match ref2.write() {
+            Ok(mut write_data) => {
+                let (rnd_name, rnd_value) = generate_random_name_and_id();
+                write_data.push(Data {
+                    id: rnd_value,
+                    name: rnd_name,
+                    time_stamp: SystemTime::now(),
+                });
                 println!("Data Added");
             }
-            Err(error)=>{
-                println!("{:?}",error);
+            Err(error) => {
+                println!("{:?}", error);
             }
         }
     });
-
-    let t2=thread::spawn(move ||loop {
+    let t2 = thread::spawn(move || loop {
         thread::sleep(Duration::from_secs(5));
-        println!("{:#?}",ref1.read().unwrap());
-    });    
-    
-    
-    let t3=thread::spawn(move ||loop {
-        thread::sleep(Duration::from_secs(15));
-        match ref3.write(){
-            Ok(mut read_data)=>{
-                read_data.retain(|each_data|{
-                    match each_data.time_stamp.elapsed(){
-                        Ok(time)=>{
+        println!("{:#?}", ref1.read().unwrap());
+    });
+
+    let t3 = thread::spawn(move || loop {
+        thread::sleep(Duration::from_secs(6));
+        match ref3.write() {
+            Ok(mut read_data) => {
+                read_data.retain(|each_data| {
+                    match each_data.time_stamp.elapsed() {
+                        Ok(time) => {
                             // println!("Entries before 5 sec removed!");
-                            time<Duration::from_secs(5)
+                            time < Duration::from_secs(5)
                         }
-                        Err(error)=>{
-                            println!("{:?}",error);
+                        Err(error) => {
+                            println!("{:?}", error);
                             false
                         }
                     }
-                    
                 })
-            }   
-            Err(error)=>{
-                println!("{:?}",error);
+            }
+            Err(error) => {
+                println!("{:?}", error);
             }
         }
         // SystemTime::now().duration_since()
     });
-    println!("{:#?}",arc);
     t1.join().unwrap();
     t2.join().unwrap();
+    println!("{:#?}", arc);
+
     t3.join().unwrap();
 }
 
-pub fn generate_random_name_and_id()->(String,i32){
+pub fn generate_random_name_and_id() -> (String, i32) {
     let names = vec![
         "Jasmine",
         "Liam",
@@ -91,18 +94,17 @@ pub fn generate_random_name_and_id()->(String,i32){
         "Harper",
         "Elijah",
     ];
-    let rnd_value =rand::thread_rng().gen_range(0..100);
+    let rnd_value = rand::thread_rng().gen_range(0..100);
 
-    let name_rng:u8=rand::thread_rng().gen_range(5..11);
-    
-    let mut name:String=String::new();
+    let name_rng: u8 = rand::thread_rng().gen_range(5..11);
+
+    let mut name: String = String::new();
     name.push((rand::thread_rng().gen_range(65..91) as u8) as char);
-    for i in 1..name_rng {
-        let ascii_val=rand::thread_rng().gen_range(97..123) as u8;
+    for _ in 1..name_rng {
+        let ascii_val = rand::thread_rng().gen_range(97..123) as u8;
         name.push(ascii_val as char);
     }
-    let rnd_index =rand::thread_rng().gen_range(0..names.len());
+    // let rnd_index = rand::thread_rng().gen_range(0..names.len());
     // (names[rnd_index].to_string(),rnd_value)
-    (name,rnd_value)
-    
+    (name, rnd_value)
 }

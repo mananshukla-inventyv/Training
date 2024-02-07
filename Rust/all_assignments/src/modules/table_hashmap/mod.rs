@@ -1,15 +1,15 @@
 pub mod font_data;
 
+use self::font_data::calc_font_size;
 use serde::{Deserialize, Serialize};
 use serde_json::{self};
-use std::fs;
 use std::fmt::Write;
-use self::font_data::calc_font_size;
+use std::fs;
 
 #[derive(Debug, Serialize)]
 pub enum RowType {
     DataRows,
-    HeadRows
+    HeadRows,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -54,10 +54,14 @@ impl Row {
             for each_char in cells[i].content.chars() {
                 if total_chars_width > cell_width {
                     total_chars_width = 0.0;
-                    full_sentence.write_char('\n').expect("error in writing char");
+                    full_sentence
+                        .write_char('\n')
+                        .expect("error in writing char");
                     total_chars_height += font_size as f64 + line_spacing;
                 }
-                full_sentence.write_char(each_char).expect("error in writing char");
+                full_sentence
+                    .write_char(each_char)
+                    .expect("error in writing char");
                 total_chars_width += calc_font_size(&each_char, font_size);
             }
 
@@ -140,70 +144,64 @@ pub struct DataRows {
 }
 
 pub fn table_hmap() {
-            let final_data=serde_json::from_str(&fs::read_to_string("./data/data.json").unwrap()).unwrap();
+    let final_data =
+        serde_json::from_str(&fs::read_to_string("./data/data.json").unwrap()).unwrap();
 
-            let (head_cell_vec,data_cell_vec)=create_and_insert_cells(final_data);
-            
-            // write_rows(cell_vec[0], cell_vec[1], final_data);
-            // let new_row = Row::new(cell_vec, final_data.dataRows.fontSize, RowType::DataRows);
-            // let each_cell_width =
-            //     final_data.pageWidth as f64 / final_data.headerRow.title.len() as f64;
-            // let mut head_vec = Vec::new();
-            // for each_heading in final_data.headerRow.title {
-            //     head_vec.push(Cell {
-            //         height: 0.0,
-            //         width: each_cell_width,
-            //         content: each_heading,
-            //     });
-            // }
+    let (head_cell_vec, data_cell_vec) = create_and_insert_cells(final_data);
 
-            // let new_header = Row::new(head_vec, final_data.headerRow.fontSize, RowType::HeadRows);
-            // println!("{:#?}", new_header);
+    // write_rows(cell_vec[0], cell_vec[1], final_data);
+    // let new_row = Row::new(cell_vec, final_data.dataRows.fontSize, RowType::DataRows);
+    // let each_cell_width =
+    //     final_data.pageWidth as f64 / final_data.headerRow.title.len() as f64;
+    // let mut head_vec = Vec::new();
+    // for each_heading in final_data.headerRow.title {
+    //     head_vec.push(Cell {
+    //         height: 0.0,
+    //         width: each_cell_width,
+    //         content: each_heading,
+    //     });
+    // }
 
-            let mut final_data: Vec<Row> = Vec::new();
-            let r1=Row::new(head_cell_vec,18,RowType::HeadRows);
-            let r2=Row::new(data_cell_vec,12,RowType::DataRows);
-            final_data.push(r1); 
-            final_data.push(r2);
+    // let new_header = Row::new(head_vec, final_data.headerRow.fontSize, RowType::HeadRows);
+    // println!("{:#?}", new_header);
 
-            fs::write(
-                "./data/table_hashmap.json",
-                serde_json::to_string_pretty(&final_data).expect("msg"),
-            )
-            .expect("msg");
+    let mut final_data: Vec<Row> = Vec::new();
+    let r1 = Row::new(head_cell_vec, 18, RowType::HeadRows);
+    let r2 = Row::new(data_cell_vec, 12, RowType::DataRows);
+    final_data.push(r1);
+    final_data.push(r2);
+
+    fs::write(
+        "./data/table_hashmap.json",
+        serde_json::to_string_pretty(&final_data).expect("msg"),
+    )
+    .expect("msg");
+}
+
+pub fn create_and_insert_cells(final_data: TableData) -> (Vec<Cell>, Vec<Cell>) {
+    let each_cell_width = final_data.pageWidth as f64 / final_data.headerRow.title.len() as f64;
+
+    let mut cell_vec: Vec<Cell> = Vec::new();
+    for each_row in final_data.dataRows.rows {
+        for each_title in each_row {
+            cell_vec.push(Cell {
+                height: 0.0,
+                width: each_cell_width,
+                content: each_title,
+            });
         }
+    }
 
-pub fn create_and_insert_cells(final_data:TableData) ->(Vec<Cell>,Vec<Cell>) {
-    
-
-            let each_cell_width =
-                final_data.pageWidth as f64 / final_data.headerRow.title.len() as f64;
-
-            let mut cell_vec: Vec<Cell> = Vec::new();
-            for each_row in final_data.dataRows.rows {
-                for each_title in each_row {
-                    cell_vec.push(Cell {
-                        height: 0.0,
-                        width: each_cell_width,
-                        content: each_title,
-                    });
-                }
-            }
-
-            let mut head_vec = Vec::new();
-            for each_heading in final_data.headerRow.title {
-                head_vec.push(Cell {
-                    height: 0.0,
-                    width: each_cell_width,
-                    content: each_heading,
-                });
-            }
-            (head_vec,cell_vec)
-         }
-
-         
-
-
+    let mut head_vec = Vec::new();
+    for each_heading in final_data.headerRow.title {
+        head_vec.push(Cell {
+            height: 0.0,
+            width: each_cell_width,
+            content: each_heading,
+        });
+    }
+    (head_vec, cell_vec)
+}
 
 // pub fn write_rows(head_cell_vec:Vec<Cell>,data_cell_vec:Vec<Cell>, final_data:TableData){
 
@@ -213,7 +211,7 @@ pub fn create_and_insert_cells(final_data:TableData) ->(Vec<Cell>,Vec<Cell>) {
 
 //     row_vec.push();
 //     row_vec.push(data_cell_vec);
-    
+
 //     fs::write(
 //         "./data/table_hashmap.json",
 //         serde_json::to_string_pretty(&row_vec).expect("msg"),

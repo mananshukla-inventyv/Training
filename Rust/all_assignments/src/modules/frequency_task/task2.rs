@@ -1,7 +1,7 @@
+pub use crate::modules::frequency_task::task2::string_analyzer as string_analyze;
+use crate::modules::type_collections::Task2Response;
 use std::collections::HashMap;
 use std::io;
-use crate::modules::type_collections::Task2Response;
-pub use crate::modules::frequency_task::task2::string_analyzer as string_analyze;
 pub fn string_analyzer() -> Task2Response {
     // initializing empty string for inputs
     let mut _str1 = String::new();

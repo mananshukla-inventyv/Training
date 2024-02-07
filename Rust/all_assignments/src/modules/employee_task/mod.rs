@@ -1,5 +1,5 @@
-use std::fs;
 use super::type_collections::{Employee, Position, Skills};
+use std::fs;
 
 /// Processes employee data from a JSON file, categorizes employees based on position and skills,
 /// and writes the categorized data to separate JSON files.
@@ -37,7 +37,7 @@ pub fn employee_task() {
                                     sr_or_c.push(employee);
                                 }
                             }
-                            _=>{
+                            _ => {
                                 if employee.skills.contains(&Skills::CSharp) {
                                     sr_or_c.push(employee);
                                 }
@@ -46,9 +46,21 @@ pub fn employee_task() {
                     }
 
                     // Write categorized data to separate JSON files
-                    fs::write("./data/mid_and_rust.json", serde_json::to_string_pretty(&mid_and_rust).expect("msg")).expect("msg");
-                    fs::write("./data/jr_and_java.json", serde_json::to_string_pretty(&jr_and_java).expect("msg")).expect("msg");
-                    fs::write("./data/sr_or_c.json", serde_json::to_string_pretty(&sr_or_c).expect("msg")).expect("msg");
+                    fs::write(
+                        "./data/mid_and_rust.json",
+                        serde_json::to_string_pretty(&mid_and_rust).expect("msg"),
+                    )
+                    .expect("msg");
+                    fs::write(
+                        "./data/jr_and_java.json",
+                        serde_json::to_string_pretty(&jr_and_java).expect("msg"),
+                    )
+                    .expect("msg");
+                    fs::write(
+                        "./data/sr_or_c.json",
+                        serde_json::to_string_pretty(&sr_or_c).expect("msg"),
+                    )
+                    .expect("msg");
                 }
                 Err(error) => {
                     // Handle potential errors during JSON parsing
@@ -62,4 +74,3 @@ pub fn employee_task() {
         }
     };
 }
-

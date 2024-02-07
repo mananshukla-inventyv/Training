@@ -1,5 +1,7 @@
 //! This module stores all the needed enum and struct types later used in the program.
 
+use std::time::SystemTime;
+
 use serde::{Deserialize, Serialize};
 
 /// Enum representing different positions in a company.
@@ -48,7 +50,7 @@ pub struct Employee {
 }
 
 /// Struct representing a student.
-#[derive(Debug, Serialize, Deserialize,Clone)]
+#[derive(Debug, Serialize, Deserialize, Clone)]
 pub struct Student {
     /// The name of the student.
     pub name: String,
@@ -74,25 +76,27 @@ impl Student {
     pub fn calc_percent_grades(&mut self) {
         // Calculate the total marks using the sum of the marks in the student's marks vector
         let total: u16 = self.marks.iter().sum();
-        
+
         // Calculate the percentage based on the total marks and the number of subjects
         let percent = (total as f32) / self.marks.len() as f32;
-        
+
         // Determine the grade based on the calculated percentage
         let grade = match percent as u16 {
-            0..=20 => {"E".to_string()},
-            21..=40 => {"D".to_string()},
-            41..=60 => {"C".to_string()},
-            61..=80 => {"B".to_string()},
-            81..=100 => {"A".to_string()},
-            _ => { panic!("invalid marks!") }
+            0..=20 => "E".to_string(),
+            21..=40 => "D".to_string(),
+            41..=60 => "C".to_string(),
+            61..=80 => "B".to_string(),
+            81..=100 => "A".to_string(),
+            _ => {
+                panic!("invalid marks!")
+            }
         };
 
-        self.percent=Some(percent);
-        self.grade=Some(grade);
-        
+        self.percent = Some(percent);
+        self.grade = Some(grade);
+
         // Return a tuple containing the percentage and grade
-        // (percent, grade) 
+        // (percent, grade)
     }
 }
 
@@ -103,4 +107,37 @@ pub struct Task2Response {
     pub letter_count_vec: Vec<(char, u8)>,
     /// Vector containing characters left out after analysis.
     pub left_out: Vec<(char, u8)>,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub struct User {
+    pub id: i32,
+    pub name: String,
+    pub skills: Vec<String>,
+    pub status: Status,
+    pub language: Language,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub enum Status {
+    Online,
+    Offline,
+}
+
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub enum Language {
+    English,
+    Spanish,
+}
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub struct Request {
+    pub task_type: SupportType,
+    pub skills: String,
+    pub language: Language,
+    pub timestamp: SystemTime,
+}
+#[derive(Debug, Serialize, Deserialize, PartialEq)]
+pub enum SupportType {
+    OnCall,
+    OnChat,
 }

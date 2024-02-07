@@ -8,4 +8,4 @@ lazy_static! {
 }
 pub fn calc_font_size(font: &char, font_size: i32) -> f64 {
     EACH_FONT_SIZE.get(&font.to_string()).unwrap() * font_size as f64
-} 
+}

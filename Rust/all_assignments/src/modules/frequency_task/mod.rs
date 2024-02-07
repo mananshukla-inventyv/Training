@@ -2,7 +2,7 @@ pub mod task1;
 pub mod task2;
 use crate::modules::frequency_task::task2::string_analyzer;
 
-use self::{task1::split_string};
+use self::task1::split_string;
 
 // use crate::modules::frequency_task::task2::other;
 /// This module provides functions to perform various tasks using the `task1` and `task2` submodules.
