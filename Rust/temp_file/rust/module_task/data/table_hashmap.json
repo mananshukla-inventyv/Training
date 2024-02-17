@@ -1,0 +1,496 @@
+[
+  {
+    "total_cells": [
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Descri\nption(\nType)"
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Date I\nn Svc"
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Cost/ B\nasis"
+      },
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Prior 1\n79 Bon\nus"
+      },
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Bus. U\nse Per\n."
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Metho\nd"
+      },
+      {
+        "width": 49.5,
+        "height": 22.0,
+        "content": "Cv"
+      },
+      {
+        "width": 49.5,
+        "height": 22.0,
+        "content": "Life"
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Crnt. \n179"
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Crnt. \nBonus"
+      },
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Prior R\neg. De\npr."
+      },
+      {
+        "width": 49.5,
+        "height": 82.0,
+        "content": "Crnt. \nDepr. \nDeduc\n."
+      },
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Next Y\near De\npr."
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Prior A\nMT"
+      },
+      {
+        "width": 49.5,
+        "height": 42.0,
+        "content": "Crnt. \nAMT"
+      },
+      {
+        "width": 49.5,
+        "height": 62.0,
+        "content": "Crnt. \nAmo. \nDep."
+      }
+    ],
+    "width": 792.0,
+    "height": 0.0,
+    "row_type": "HeadRows"
+  },
+  {
+    "total_cells": [
+      {
+        "width": 49.5,
+        "height": 100.0,
+        "content": "Asset1 - H\nouse In N\nY(Indian\n Reservat\nion 5 year\n non farm\n property"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "01/01/202\n4"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "250,000"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "100 MAC\nRS 150"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "HY"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "3"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 100.0,
+        "content": "Asset2 - H\nouse In C\nA(Indian\n Reservat\nion 10 yea\nr farm pr\noperty)"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "01/01/202\n2"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "150000"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "100 MAC\nRS 150"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "CA"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "3"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 58.0,
+        "content": "Asset3 - C\nar -Ford(\nCar Prop\nerty)"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "01/01/201\n9"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "1000000"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "100 MAC\nRS 150"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "ford"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "3"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 58.0,
+        "content": "Asset3 - C\nar -Audi(\nCar Prop\nerty)"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "01/01/201\n7"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "150000"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "100 MAC\nRS 150"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "ford"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "3"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 58.0,
+        "content": "Asset3 - C\nar -BMW\n(Car Pro\nperty)"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "01/01/201\n5"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "150000"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 30.0,
+        "content": "100 MAC\nRS 150"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "ford"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "3"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      },
+      {
+        "width": 49.5,
+        "height": 16.0,
+        "content": "0"
+      }
+    ],
+    "width": 3960.0,
+    "height": 0.0,
+    "row_type": "DataRows"
+  }
+]

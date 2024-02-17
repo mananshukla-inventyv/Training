@@ -1,0 +1,178 @@
+{
+  "sr_or_c": [
+    {
+      "age": 25,
+      "skills": [
+        "Java",
+        "C#"
+      ],
+      "experiance(y)": 5,
+      "name": "Aarav",
+      "position": "Sr. Software Developer"
+    },
+    {
+      "skills": [
+        "C#",
+        "Rust"
+      ],
+      "experiance(y)": null,
+      "age": 28,
+      "name": "Advait",
+      "position": null
+    },
+    {
+      "name": "Aisha",
+      "age": 25,
+      "position": null,
+      "experiance(y)": null,
+      "skills": [
+        "Rust",
+        "C#"
+      ]
+    },
+    {
+      "skills": [
+        "Python",
+        "C#"
+      ],
+      "name": "Diya",
+      "position": null,
+      "experiance(y)": null,
+      "age": 27
+    },
+    {
+      "experiance(y)": null,
+      "position": "Team Lead",
+      "name": "Vihaan",
+      "skills": [
+        "Rust",
+        "C#"
+      ],
+      "age": 28
+    },
+    {
+      "skills": [
+        "C#",
+        "Rust"
+      ],
+      "name": "Ananya",
+      "position": "Project Manager",
+      "age": 25,
+      "experiance(y)": null
+    },
+    {
+      "age": 26,
+      "name": "Kabir",
+      "position": null,
+      "experiance(y)": null,
+      "skills": [
+        "Python",
+        "C#"
+      ]
+    },
+    {
+      "experiance(y)": null,
+      "age": 28,
+      "skills": [
+        "Rust",
+        "C#"
+      ],
+      "position": null,
+      "name": "Rohan"
+    },
+    {
+      "skills": [
+        "C#",
+        "Java"
+      ],
+      "experiance(y)": null,
+      "name": "Aanya",
+      "age": 25,
+      "position": null
+    },
+    {
+      "experiance(y)": null,
+      "name": "Ritvik",
+      "skills": [
+        "Java",
+        "C#"
+      ],
+      "age": 26,
+      "position": null
+    },
+    {
+      "age": 28,
+      "skills": [
+        "C#",
+        "Java"
+      ],
+      "position": null,
+      "experiance(y)": null,
+      "name": "Reyansh"
+    },
+    {
+      "name": "Ishita",
+      "position": null,
+      "age": 25,
+      "skills": [
+        "C#",
+        "Python"
+      ],
+      "experiance(y)": null
+    },
+    {
+      "name": "Virat",
+      "position": null,
+      "experiance(y)": null,
+      "skills": [
+        "C#",
+        "Java"
+      ],
+      "age": 26
+    },
+    {
+      "position": null,
+      "name": "Avani",
+      "experiance(y)": null,
+      "skills": [
+        "C#",
+        "Rust"
+      ],
+      "age": 27
+    }
+  ],
+  "mid_and_rust": [
+    {
+      "experiance(y)": null,
+      "name": "Arjun",
+      "age": 27,
+      "skills": [
+        "Rust",
+        "C#"
+      ],
+      "position": "Software Developer"
+    },
+    {
+      "name": "Ishaan",
+      "age": 26,
+      "position": "Software Developer",
+      "experiance(y)": null,
+      "skills": [
+        "Rust",
+        "Java"
+      ]
+    }
+  ],
+  "jr_and_java": [
+    {
+      "experiance(y)": 1,
+      "skills": [
+        "Java",
+        "Rust"
+      ],
+      "name": "Saanvi",
+      "age": 26,
+      "position": "Jr. Software Developer"
+    }
+  ]
+}

@@ -1,0 +1,1429 @@
+{
+  "users": [
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "checkInStatus": false,
+      "createdBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+      "createdDate": "2023-09-26T11:39:45Z",
+      "currentLogId": "USERLOG_EudfDne043rBlroMAMpNg1Q.k8guRpG_1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "b72fb091-1102-4fe5-a206-f311dabf9b42",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Ellis",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "phoneNumber",
+              "newValue": "8141339632",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-09-26T11:51:32Z"
+        },
+        {
+          "field": [
+            {
+              "name": "queueManager",
+              "newValue": "aa88e00d-90a2-486f-b18a-d4da23e222d6",
+              "oldValue": "0be297df-2235-4c54-94e4-b00002d5da22"
+            },
+            {
+              "name": "queueManagerName",
+              "newValue": "QSearch Team Chintan",
+              "oldValue": "QSearch Team Deepmala"
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-09-26T12:32:05Z"
+        },
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "F9TbWHCWx8rMoqAZicJSCKEzJb7T.Lq",
+              "oldValue": "q.JwaEdeiaftbqhm53pPd9znqaMzy3q"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$kiwwQw9kn0aYxoj6XxOgke",
+              "oldValue": "$2b$10$FzGU2MR0oSNRaRK2ZKlj3O"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:21Z"
+        },
+        {
+          "field": [
+            {
+              "name": "personalEmail",
+              "newValue": "ellis.tarmaster@inventyv.com",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T12:33:15Z"
+        },
+        {
+          "field": [
+            {
+              "name": "hr",
+              "newValue": true,
+              "oldValue": false
+            }
+          ],
+          "updatedBy": "e728c0d8-f628-4eaa-8546-2b707ba676f9",
+          "updatedDate": "2023-11-21T09:24:04Z"
+        },
+        {
+          "field": [
+            {
+              "name": "timesheetApproverId",
+              "newValue": [
+                "515bf0af-2857-484f-aa39-81857df2016e"
+              ]
+            }
+          ],
+          "updatedBy": "e728c0d8-f628-4eaa-8546-2b707ba676f9",
+          "updatedDate": "2023-11-21T09:32:20Z"
+        }
+      ],
+      "hr": true,
+      "id": "e728c0d8-f628-4eaa-8546-2b707ba676f9",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": true,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "joiningDate": "2023-09-26T12:00:00Z",
+      "lastName": "Tarmaster",
+      "password": "sSkZWbBHACtei/ymimHExILUcOIJIIy",
+      "personalEmail": "ellis.tarmaster@inventyv.com",
+      "phone": [],
+      "phoneNumber": "8141339632",
+      "queueManager": "aa88e00d-90a2-486f-b18a-d4da23e222d6",
+      "queueManagerName": "QSearch Team Chintan",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Administrator",
+      "salt": "$2b$10$Yoij.8vvQFdcUccOUekWqe",
+      "searchOnlyQueue": false,
+      "skillDetails": [
+        {
+          "level": 2,
+          "percentage": 100,
+          "skill": "Hyper Text Mark-Up Language (HTML basic)",
+          "skillId": "7be7404b-908e-49d9-a820-8a5a651fb949"
+        }
+      ],
+      "timesheetApproverId": [
+        "515bf0af-2857-484f-aa39-81857df2016e"
+      ],
+      "updatedBy": "USR_EudfDne043rBlroMAMpNg1Q.k8guRpG",
+      "updatedDate": "2023-12-06T04:12:02Z",
+      "userId": 667,
+      "userName": "ellis.tarmaster",
+      "userNameHash": "EudfDne043rBlroMAMpNg1Q.k8guRpG",
+      "userType": "user",
+      "skills": [
+        "MyTAXPortal",
+        "IT"
+      ],
+      "languageSkills": 3
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+      "createdDate": "2023-08-10T12:57:04Z",
+      "currentLogId": "USERLOG_QPByX.VSxhHzCDnpm22fZ3mCNAGE4lK_1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "mailto:customersupport@mytaxprepoffice.com",
+          "id": "e43b3dea-14db-467d-bc67-ede717b6f71b",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Akanksha",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "fbacd958-8740-450b-955a-6adf7b356be3",
+          "updatedDate": "2023-08-10T13:44:26Z"
+        },
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "hZFIufNk7R8QtdI2B4492SzARWSzGlq",
+              "oldValue": "8cFaggYvOGtX7xzzMixey19DBbb7SNG"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$ikw1fKl/4b5UiYuWnVn7e.",
+              "oldValue": "$2b$10$WJn.CVHESwUZKBPx8ZrVfO"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:05Z"
+        },
+        {
+          "field": [
+            {
+              "name": "personalEmail",
+              "newValue": "mailto:akanksha.singh@inventyv.com",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T13:06:10Z"
+        }
+      ],
+      "hr": false,
+      "id": "ced45fe2-c0c6-491f-8232-ce9f1f0ad056",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "joiningDate": "2023-08-10T12:56:57.000Z",
+      "lastName": "Singh",
+      "password": "hZFIufNk7R8QtdI2B4492SzARWSzGlq",
+      "personalEmail": "mailto:akanksha.singh@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "44aafee6-f6ff-460e-8aa3-c2ebb6d82dcc",
+      "queueManagerName": "QSearch Team Abhay",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Development Team",
+      "salt": "$2b$10$ikw1fKl/4b5UiYuWnVn7e.",
+      "searchOnlyQueue": false,
+      "updatedBy": "USR_QPByX.VSxhHzCDnpm22fZ3mCNAGE4lK",
+      "updatedByName": "Vaidehi Gohil",
+      "updatedDate": "2023-12-28T05:27:52Z",
+      "userId": 173,
+      "userName": "akanksha.singh",
+      "userNameHash": "QPByX.VSxhHzCDnpm22fZ3mCNAGE4lK",
+      "userType": "user",
+      "skills": [
+        "Reseller",
+        "Emergency",
+        "MyTAXPortal"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-07-20T10:02:45Z",
+      "currentLogId": "USERLOG_6VYl4WaJpnaS99wYOyAj9j1A346._1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "8e84116c-4895-47ff-ad6f-18f95ca06277",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Dev",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "b2f/EiDnp84DEOMvN7jcpvTf0QsV306",
+              "oldValue": "hB23Rk.IyQnnI5rFF8ik0KTw8CBgIHm"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$ANYLkMVAo5bwjmoj2CbYlu",
+              "oldValue": "$2b$10$2OrY990JXRbaJhQonUb4Bu"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:16Z"
+        },
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "personalEmail",
+              "newValue": "dev.shah@inventyv.com",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T12:49:36Z"
+        }
+      ],
+      "hr": false,
+      "id": "491b1d20-5290-42f6-a74a-1ce29ce3d65f",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "lastName": "Shah",
+      "password": "b2f/EiDnp84DEOMvN7jcpvTf0QsV306",
+      "personalEmail": "dev.shah@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "1fa96b6d-518a-434f-97e3-f25e3d5d5048",
+      "queueManagerName": "QSearch Team Naisarg",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Development Team",
+      "salt": "$2b$10$ANYLkMVAo5bwjmoj2CbYlu",
+      "searchOnlyQueue": false,
+      "timesheetApproverId": [
+        "5c96303b-b910-47a8-bfe6-8f9e13fea73c"
+      ],
+      "updatedBy": "USR_6VYl4WaJpnaS99wYOyAj9j1A346.",
+      "updatedByName": "Sheo Ouseph",
+      "updatedDate": "2023-12-26T13:17:19Z",
+      "userId": 616,
+      "userName": "dev.shah",
+      "userNameHash": "6VYl4WaJpnaS99wYOyAj9j1A346.",
+      "userType": "user",
+      "skills": [
+        "Reseller",
+        "Emergency",
+        "ConversionEasy"
+      ],
+      "languageSkills": 2
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-07-20T10:00:50Z",
+      "currentLogId": "USERLOG_URlsBl.pklKpbLWIDbP4slbpRk.fe_1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "051358c0-10b9-4a32-8440-d28602e1999d",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Vedang",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "fbacd958-8740-450b-955a-6adf7b356be3",
+          "updatedDate": "2023-07-20T10:52:35Z"
+        },
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "SVaKj6hwAdlSfG2uIrJMdRdH9owJA6i",
+              "oldValue": "9JkfucCtuTIHjTrNRt48l/5YUKrUb26"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$OAWCbE/H/YLHTUs1sm/SZu",
+              "oldValue": "$2b$10$YgD6OrvLUlc9C0Wg5CshC."
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:14Z"
+        },
+        {
+          "field": [
+            {
+              "name": "personalEmail",
+              "newValue": "vedang.kavathiya@inventyv.com",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T12:47:52Z"
+        }
+      ],
+      "hr": false,
+      "id": "1673545b-7618-4e81-a89e-91b9a4da258c",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "lastName": "Kavathiya",
+      "password": "SVaKj6hwAdlSfG2uIrJMdRdH9owJA6i",
+      "personalEmail": "vedang.kavathiya@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "1fa96b6d-518a-434f-97e3-f25e3d5d5048",
+      "queueManagerName": "QSearch Team Naisarg",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Development Team",
+      "salt": "$2b$10$OAWCbE/H/YLHTUs1sm/SZu",
+      "searchOnlyQueue": false,
+      "timesheetApproverId": [
+        "5c96303b-b910-47a8-bfe6-8f9e13fea73c"
+      ],
+      "updatedBy": "USR_URlsBl.pklKpbLWIDbP4slbpRk.fe",
+      "updatedDate": "2023-12-29T04:51:25Z",
+      "userId": 510,
+      "userName": "vedang.kavathiya",
+      "userNameHash": "URlsBl.pklKpbLWIDbP4slbpRk.fe",
+      "userType": "user",
+      "skills": [
+        "Emergency",
+        "TaxContentBusiness",
+        "IT"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+      "createdDate": "2023-10-17T07:18:28Z",
+      "currentLogId": "USERLOG_.CeHLK1XOYi3II5g3x3Bbql72d8Ww6_1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "1ce021b0-d449-458d-a91c-72460157e7a5",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Montu",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "roleList",
+              "newValue": [
+                "Indian Support Operations"
+              ]
+            }
+          ],
+          "updatedBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+          "updatedDate": "2023-10-17T10:19:49Z"
+        },
+        {
+          "field": [
+            {
+              "name": "role",
+              "newValue": "Support - India",
+              "oldValue": "Administrator"
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-10-17T11:11:16Z"
+        },
+        {
+          "field": [
+            {
+              "name": "roleList",
+              "newValue": [
+                "Indian Support Operations",
+                "Demo Scheduler Admin"
+              ],
+              "oldValue": [
+                "Indian Support Operations"
+              ]
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-10-19T11:17:56Z"
+        },
+        {
+          "field": [
+            {
+              "name": "personalEmail",
+              "newValue": "montu.pataliya@inventyv.com",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+          "updatedDate": "2023-10-27T09:17:43Z"
+        },
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "zL82VcMLRMhbVH5PZFSY3Os93v7NM9e",
+              "oldValue": "TDD1VHzZH4XQMPf/0LbkqhW.GwlGCJa"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$00vzrGhqiRv16xz6cCLXL.",
+              "oldValue": "$2b$10$G4hzcSgrS0opCATg8NEoPe"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:10Z"
+        },
+        {
+          "field": [
+            {
+              "name": "roleList",
+              "newValue": [
+                "Demo Scheduler Admin",
+                "Indian Support Operations",
+                "Merge Customer"
+              ],
+              "oldValue": [
+                "Demo Scheduler Admin",
+                "Indian Support Operations"
+              ]
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-11-03T13:34:05Z"
+        },
+        {
+          "field": [
+            {
+              "name": "roleList",
+              "newValue": [
+                "Merge Customer",
+                "Demo Scheduler Admin",
+                "Indian Support Operations",
+                "User Payroll"
+              ],
+              "oldValue": [
+                "Demo Scheduler Admin",
+                "Indian Support Operations",
+                "Merge Customer"
+              ]
+            },
+            {
+              "name": "ripplingEmployeeNumber",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "ripplingFirstName",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "ripplingLastName",
+              "newValue": "",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-12-27T12:46:32Z"
+        }
+      ],
+      "hr": false,
+      "id": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "joiningDate": "2023-10-17T12:00:00Z",
+      "lastName": "Pataliya",
+      "password": "PdeKUAOYHc4oqj7/7XmFZmY05HpLmJW",
+      "personalEmail": "montu.pataliya@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "8fca0746-5665-49d7-aae5-cc34cfc868d0",
+      "queueManagerName": "QTSC IN EN Sales Analyst",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "ripplingEmployeeNumber": "",
+      "ripplingFirstName": "",
+      "ripplingLastName": "",
+      "role": "Support - India",
+      "roleList": [
+        "Merge Customer",
+        "Demo Scheduler Admin",
+        "Indian Support Operations",
+        "User Payroll"
+      ],
+      "salt": "$2b$10$p.1KuXHzfEiUUH.Ams6Z0O",
+      "searchOnlyQueue": false,
+      "timesheetApproverId": [
+        "033209fe-eda4-469a-897e-35e124732321"
+      ],
+      "updatedBy": "USR_.CeHLK1XOYi3II5g3x3Bbql72d8Ww6",
+      "updatedDate": "2023-12-29T05:03:44Z",
+      "userId": 331,
+      "userName": "montu.pataliya",
+      "userNameHash": ".CeHLK1XOYi3II5g3x3Bbql72d8Ww6",
+      "userType": "user",
+      "skills": [
+        "MyTAXPortal",
+        "ConversionEasy",
+        "TaxContentBusiness"
+      ],
+      "languageSkills": 2
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-10-04T09:23:45Z",
+      "currentLogId": "USERLOG_gYduEbC0yIo.xC48E03E4fnD6O19FPm_1123",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "e85cb09c-6cf1-4711-bd6a-7278dbdfb65f",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Nishith",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "Ro5ZHnl9iQ0LhafUUbvW.1tkxF/rrEK",
+              "oldValue": "inFwKVYfKpQKQ/MwjdkR1YNS9lhb4yG"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$obBuVtk.mbAfhAXQMS0p4e",
+              "oldValue": "$2b$10$iIPjhsLzPaiY3KJ238mMou"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:12Z"
+        },
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "personalEmail",
+              "newValue": "nishith.parikh@inventyv.com",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T12:51:38Z"
+        },
+        {
+          "field": [
+            {
+              "name": "hr",
+              "newValue": true,
+              "oldValue": false
+            },
+            {
+              "name": "timesheetApproverId",
+              "newValue": [
+                "5deeecdd-74f8-4da4-a642-82e4ab2f74ae"
+              ]
+            }
+          ],
+          "updatedBy": "e728c0d8-f628-4eaa-8546-2b707ba676f9",
+          "updatedDate": "2023-11-21T09:40:05Z"
+        }
+      ],
+      "hr": true,
+      "id": "515bf0af-2857-484f-aa39-81857df2016e",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "lastName": "Parikh",
+      "password": "Ro5ZHnl9iQ0LhafUUbvW.1tkxF/rrEK",
+      "personalEmail": "nishith.parikh@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "aa88e00d-90a2-486f-b18a-d4da23e222d6",
+      "queueManagerName": "QSearch Team Chintan",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Administrator",
+      "salt": "$2b$10$obBuVtk.mbAfhAXQMS0p4e",
+      "searchOnlyQueue": false,
+      "timesheetApproverId": [
+        "5deeecdd-74f8-4da4-a642-82e4ab2f74ae"
+      ],
+      "updatedBy": "USR_gYduEbC0yIo.xC48E03E4fnD6O19FPm",
+      "updatedDate": "2023-11-21T09:55:11Z",
+      "userId": 358,
+      "userName": "nishith.parikh",
+      "userNameHash": "gYduEbC0yIo.xC48E03E4fnD6O19FPm",
+      "userType": "user",
+      "skills": [
+        "IT",
+        "Reseller"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-07-20T09:46:37Z",
+      "currentLogId": "USERLOG_Cif0slnc.3xP4D4wH3qLflxvNAQEqm_1223",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "cb3550bb-aee9-42e2-b755-9e8a194aeb67",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Mihir",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "firstName",
+              "newValue": "Tes",
+              "oldValue": "Mihir"
+            },
+            {
+              "name": "lastName",
+              "newValue": "Test",
+              "oldValue": "Talaviya"
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+          "updatedDate": "2023-07-20T09:51:21Z"
+        },
+        {
+          "field": [
+            {
+              "name": "firstName",
+              "newValue": "Mihir",
+              "oldValue": "Tes"
+            },
+            {
+              "name": "lastName",
+              "newValue": "Talaviya",
+              "oldValue": "Test"
+            },
+            {
+              "name": "joiningDate",
+              "newValue": "2023-07-19T09:58:07.000Z",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+          "updatedDate": "2023-07-20T09:58:10Z"
+        },
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "mVp0HuNRdKnOqLqjdzjKj7.ejFB4wvG",
+              "oldValue": "HdhvXAJV5lDNmy3MmXCdWzD/AKXtqoy"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$UdpunXn2.yWJYsa7rTWEIO",
+              "oldValue": "$2b$10$zY0Xa.tVXGWFpi31haRfx."
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:11Z"
+        },
+        {
+          "field": [
+            {
+              "name": "personalEmail",
+              "newValue": "mihir.talaviya@inventyv.com",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T12:56:31Z"
+        }
+      ],
+      "hr": false,
+      "id": "c99bc51f-3f56-49a1-94a1-b0744d359b50",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "joiningDate": "2023-07-19T09:58:07.000Z",
+      "lastName": "Talaviya",
+      "password": "14E0tH8gNBSp2Qq7UanKMgqJwycewWS",
+      "personalEmail": "mihir.talaviya@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "1fa96b6d-518a-434f-97e3-f25e3d5d5048",
+      "queueManagerName": "QSearch Team Naisarg",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Development Team",
+      "salt": "$2b$10$KdZH2XCxkGGv3KEMoMbXE.",
+      "searchOnlyQueue": false,
+      "timesheetApproverId": [
+        "5c96303b-b910-47a8-bfe6-8f9e13fea73c"
+      ],
+      "updatedBy": "USR_Cif0slnc.3xP4D4wH3qLflxvNAQEqm",
+      "updatedByName": "Dinesh Munjpara",
+      "updatedDate": "2023-12-27T05:14:49Z",
+      "userId": 441,
+      "userName": "mihir.talaviya",
+      "userNameHash": "Cif0slnc.3xP4D4wH3qLflxvNAQEqm",
+      "userType": "user",
+      "skills": [
+        "Reseller",
+        "TaxContentBusiness"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": 781,
+        "plivoPwd": "Samuel@plivo",
+        "plivoUserName": "SamuelBurgoon396468228906120"
+      },
+      "allowPhone": true,
+      "assessmentAdminUser": false,
+      "board": false,
+      "checkInStatus": false,
+      "createdBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+      "createdDate": "2023-11-10T13:11:15Z",
+      "currentLogId": "USERLOG_E5Pz9oV6g7sNnBAW1rn3KLNuoD5DXqO_1123",
+      "designation": "",
+      "emails": [
+        {
+          "email": "support@mytaxprepoffice.com",
+          "id": "3d950645-b243-443a-8bf3-f812ff9ba0cb",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": true,
+      "explanation": "",
+      "firstName": "Samuel",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "PBXDetails.plivoExtension",
+              "newValue": 781,
+              "oldValue": ""
+            },
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "PBXDetails.plivoUserName",
+              "newValue": "SamuelBurgoon396468228906120",
+              "oldValue": ""
+            },
+            {
+              "name": "PBXDetails.plivoPwd",
+              "newValue": "Samuel@plivo",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "allowPhone",
+              "newValue": true,
+              "oldValue": ""
+            },
+            {
+              "name": "plivoUserName",
+              "newValue": "SamuelBurgoon396468228906120",
+              "oldValue": ""
+            },
+            {
+              "name": "plivoPwd",
+              "newValue": "Samuel@plivo",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-11-10T13:18:15Z"
+        },
+        {
+          "field": [
+            {
+              "name": "timesheetApproverId",
+              "newValue": [
+                "65cd2174-99f0-406b-bfea-919d2390095e",
+                "e96f0175-358c-49d2-b790-26675f18203a"
+              ],
+              "oldValue": [
+                "e96f0175-358c-49d2-b790-26675f18203a"
+              ]
+            }
+          ],
+          "updatedBy": "3fbbde83-b742-459d-86e4-9cad7d22137e",
+          "updatedDate": "2023-11-16T04:47:42Z"
+        },
+        {
+          "field": [
+            {
+              "name": "ripplingEmployeeNumber",
+              "newValue": 115,
+              "oldValue": ""
+            },
+            {
+              "name": "ripplingFirstName",
+              "newValue": "Samuel",
+              "oldValue": ""
+            },
+            {
+              "name": "ripplingLastName",
+              "newValue": "Burgoon",
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-12-28T05:39:18Z"
+        }
+      ],
+      "hr": false,
+      "id": "a6f68a0f-0635-4f11-84ad-da37e31a112f",
+      "ip": "::ffff:127.0.0.6",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "joiningDate": "2023-11-13T12:00:00Z",
+      "lastName": "Burgoon",
+      "password": ".PRZbG5myLfLJxOtB3LEMFSpRBqSACq",
+      "personalEmail": "",
+      "phone": [],
+      "phoneNumber": "8632823868",
+      "plivoPwd": "Samuel@plivo",
+      "plivoUserName": "SamuelBurgoon396468228906120",
+      "queueManager": "98c7d89f-d4ff-4a5b-921e-1cdb73b97fc0",
+      "queueManagerName": "QSearch Team Roger",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "ripplingEmployeeNumber": 115,
+      "ripplingFirstName": "Samuel",
+      "ripplingLastName": "Burgoon",
+      "role": "Marketing - US",
+      "roleList": [
+        "Door Info Update"
+      ],
+      "salt": "$2b$10$Xq7xUymvRh0.V8eD50dBZ.",
+      "searchOnlyQueue": false,
+      "timeAccounting": true,
+      "timeAccountingReminder": {
+        "approvalPending": [],
+        "breakDetails": [],
+        "breakEnforceUpdateTime": "2023-12-29T13:15:23Z",
+        "breakReminderEnforce": false,
+        "createdDate": "2023-12-21T19:45:23Z",
+        "notRequestedForApproval": [
+          "2023-12-21",
+          "2023-12-26",
+          "2023-12-28"
+        ],
+        "updatedDate": "2023-12-29T13:15:23Z"
+      },
+      "timesheetApproverId": [
+        "65cd2174-99f0-406b-bfea-919d2390095e",
+        "e96f0175-358c-49d2-b790-26675f18203a"
+      ],
+      "updatedBy": "USR_E5Pz9oV6g7sNnBAW1rn3KLNuoD5DXqO",
+      "updatedByName": "Vaidehi Gohil",
+      "updatedDate": "2023-12-28T21:51:19Z",
+      "userId": 4,
+      "userName": "samuel.burgoon",
+      "userNameHash": "E5Pz9oV6g7sNnBAW1rn3KLNuoD5DXqO",
+      "userType": "user",
+      "skills": [
+        "Reseller",
+        "TaxContentAFP",
+        "Emergency"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-10-04T09:30:43Z",
+      "currentLogId": "USERLOG_AN4KnMlcISjpbWpyrXrWvcIRomybXFO_1023",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "d30da3be-27c6-4cfd-bcf3-3586c6522c8d",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Foram",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "Tp4nRCiaL1HIAt5v68mGoByojd/5okO",
+              "oldValue": "mYgHjEw5jHIwnjk95d6rAMt/2T/5CA2"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$RnjiRY64wForxbZTqVv3d.",
+              "oldValue": "$2b$10$NrBQMpy9ojFS9bv6qyd/Ku"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:03Z"
+        },
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "personalEmail",
+              "newValue": "foram.tank@inventyv.com",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T13:10:47Z"
+        }
+      ],
+      "hr": false,
+      "id": "99a60258-5fae-4230-9773-b7e84eb175db",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "lastName": "Tank",
+      "password": "Tp4nRCiaL1HIAt5v68mGoByojd/5okO",
+      "personalEmail": "foram.tank@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "aa88e00d-90a2-486f-b18a-d4da23e222d6",
+      "queueManagerName": "QSearch Team Chintan",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Administrator",
+      "salt": "$2b$10$RnjiRY64wForxbZTqVv3d.",
+      "searchOnlyQueue": false,
+      "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+      "updatedDate": "2023-11-03T13:10:47Z",
+      "userId": 28,
+      "userName": "foram.tank",
+      "userNameHash": "AN4KnMlcISjpbWpyrXrWvcIRomybXFO",
+      "userType": "user",
+      "skills": [
+        "Emergency",
+        "MyTAXPortal"
+      ],
+      "languageSkills": 1
+    },
+    {
+      "PBXDetails": {
+        "allowIncomingCall": "",
+        "languageSkill": 5,
+        "plivoExtension": null,
+        "plivoPwd": "",
+        "plivoUserName": ""
+      },
+      "assessmentAdminUser": false,
+      "board": false,
+      "createdBy": "acb88a91-6719-4a62-884b-ffa32fc2f401",
+      "createdDate": "2023-10-04T09:19:37Z",
+      "currentLogId": "USERLOG_Wm7ctSA.40SXjaST2V05SF03Bg9Yqca_1023",
+      "designation": "",
+      "emails": [
+        {
+          "email": "customersupport@mytaxprepoffice.com",
+          "id": "b35f0335-7cb8-417e-980f-1ad5e2a33cc2",
+          "isDefault": 1
+        }
+      ],
+      "enableAssessment": false,
+      "englishVerificationNotNeeded": false,
+      "explanation": "",
+      "firstName": "Tapasya",
+      "history": [
+        {
+          "field": [
+            {
+              "name": "password",
+              "newValue": "yejEnNULhPVoAZMqwsgIX/pqhlieu3y",
+              "oldValue": "HiT0150RH3o1DoEfiycZBm81ByPIjfG"
+            },
+            {
+              "name": "salt",
+              "newValue": "$2b$10$BEY4z3vaxhdFfdKmrXIZWu",
+              "oldValue": "$2b$10$U3NKD9zZTM6NNKgd..K5Ae"
+            }
+          ],
+          "updatedBy": "245ecacb-e662-41bb-b482-140fa16075fe",
+          "updatedDate": "2023-10-27T11:12:03Z"
+        },
+        {
+          "field": [
+            {
+              "name": "PBXDetails.allowIncomingCall",
+              "newValue": "",
+              "oldValue": ""
+            },
+            {
+              "name": "personalEmail",
+              "newValue": "tapasya.soni@inventyv.com",
+              "oldValue": ""
+            },
+            {
+              "name": "hr",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "board",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "englishVerificationNotNeeded",
+              "newValue": false,
+              "oldValue": ""
+            },
+            {
+              "name": "searchOnlyQueue",
+              "newValue": false,
+              "oldValue": ""
+            }
+          ],
+          "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+          "updatedDate": "2023-11-03T13:10:01Z"
+        }
+      ],
+      "hr": false,
+      "id": "b344a503-3ffe-4d3e-89ff-22a787b6782c",
+      "isActive": true,
+      "isAssessmentEnabled": false,
+      "isDeleted": false,
+      "isMergeCustomer": false,
+      "lastName": "Soni",
+      "password": "yejEnNULhPVoAZMqwsgIX/pqhlieu3y",
+      "personalEmail": "tapasya.soni@inventyv.com",
+      "phone": [],
+      "phoneNumber": "",
+      "queueManager": "aa88e00d-90a2-486f-b18a-d4da23e222d6",
+      "queueManagerName": "QSearch Team Chintan",
+      "resellerId": "4dc601df-dc0e-4a7a-857d-9493ba33a223",
+      "resellerName": "myTAXPrepOffice",
+      "role": "Administrator",
+      "salt": "$2b$10$BEY4z3vaxhdFfdKmrXIZWu",
+      "searchOnlyQueue": false,
+      "updatedBy": "db92b1a2-b590-4b69-a68d-7ab0640c5b96",
+      "updatedDate": "2023-11-03T13:10:01Z",
+      "userId": 27,
+      "userName": "tapasya.soni",
+      "userNameHash": "Wm7ctSA.40SXjaST2V05SF03Bg9Yqca",
+      "userType": "user",
+      "skills": [
+        "TaxContentBusiness",
+        "MyTAXPortal"
+      ],
+      "languageSkills": 3
+    }
+  ]
+}
