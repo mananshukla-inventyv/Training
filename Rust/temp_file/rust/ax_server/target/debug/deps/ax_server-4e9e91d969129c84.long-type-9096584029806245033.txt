@@ -1,1 +1,0 @@
-Stack<fn(axum::extract::Path<std::string::String>, axum::http::Request<Body>, Next) -> impl Future<Output = Response<Body>> {req_checker}, Identity>

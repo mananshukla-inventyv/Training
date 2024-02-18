@@ -1,1 +1,0 @@
-Unique<(dyn HttpBody<Data = axum::body::Bytes, Error = axum::Error> + Send + 'static)>
