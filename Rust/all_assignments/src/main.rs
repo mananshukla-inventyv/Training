@@ -1,5 +1,5 @@
 //! This is the main file
-use module_task::modules::task_scheduler::task_scheduler;
+use module_task::modules::{server_task::{data_loader, run}, task_scheduler::task_scheduler};
 #[allow(unused_imports)]
 use module_task::modules::{
     employee_hashmap::employee_hashmap_task, employee_task::employee_task, practice::practice,
@@ -7,7 +7,9 @@ use module_task::modules::{
 };
 
 /// This function is the entry point of the program.
-fn main() {
+
+#[tokio::main]
+async fn main() {
     // practice();
 
     // employee_hashmap_task();
@@ -17,5 +19,7 @@ fn main() {
     // table_tasks();
     // table_hmap();
     // thread_task();
+    data_loader().await;
+    run().await;
     task_scheduler();
 }
