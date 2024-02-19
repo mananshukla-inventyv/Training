@@ -1,21 +1,24 @@
 use axum::{extract::Path, response::{IntoResponse, Response}, Json};
 
 
-use crate::modules::server_task::{users::model::Message, STUDENT_DATA};
+use crate::modules::rest_apis::USER_DATA;
 
-use super::model::Student;
+use super::model::{Language, Message, Status, User};
 
-pub async fn update_item_student(Path(id): Path<i32>,Json(stud):Json<Student>)->Response {
-    let mut data_to_be_updated=STUDENT_DATA.write().unwrap();
-    if stud.id==id.to_string(){    
-        let student_to_be_updated=data_to_be_updated.get_mut(&id.to_string()).unwrap();
-        student_to_be_updated.name=stud.name;
-        student_to_be_updated.email=stud.email;
+
+pub async fn update_item_user(Path(var): Path<i32>,Json(user):Json<User>) -> Response {
+    let mut data_to_be_updated=USER_DATA.write().unwrap();
+    if let Some(user_to_be_updated)=data_to_be_updated.get_mut(&var.to_string()){
+        user_to_be_updated.name=user.name;
+        user_to_be_updated.id=user.id;
+        user_to_be_updated.skills=vec!["a".to_string(),"b".to_string(),"c".to_string()];
+        user_to_be_updated.status=Status::Online;
+        user_to_be_updated.language=Language::English;
         Json(
             Message{
                 status:2000,
                 message_key:"Users Updated".to_string(),
-                data:Some(student_to_be_updated.clone()) 
+                data:user_to_be_updated.clone() 
             }
         ).into_response()
     }
@@ -24,16 +27,14 @@ pub async fn update_item_student(Path(id): Path<i32>,Json(stud):Json<Student>)->
             Message{
                 status:2001,
                 message_key:"Users Not Found".to_string(),
-                data:"".to_string()
+                data:""
             }
         ).into_response()
     }
-
-    // format!("Updated {} woth id : {} check by using get commnad",var.0,var.1)
 }
 
-pub async fn delete_student(Path(var): Path<i32>)-> Response{
-    let mut data_to_be_deleted=STUDENT_DATA.write().unwrap();
+pub async fn delete_users(Path(var): Path<i32>)-> Response{
+    let mut data_to_be_deleted=USER_DATA.write().unwrap();
     if let Some(user_to_be_deleted)=data_to_be_deleted.remove(&var.to_string()){
         Json(
             Message{

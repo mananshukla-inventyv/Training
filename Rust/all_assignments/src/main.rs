@@ -1,5 +1,5 @@
 //! This is the main file
-use module_task::modules::{server_task::{data_loader, run}, task_scheduler::task_scheduler};
+use module_task::modules::rest_apis::{data_loader,run};
 #[allow(unused_imports)]
 use module_task::modules::{
     employee_hashmap::employee_hashmap_task, employee_task::employee_task, practice::practice,
@@ -21,5 +21,5 @@ async fn main() {
     // thread_task();
     data_loader().await;
     run().await;
-    task_scheduler();
+    // task_scheduler();
 }

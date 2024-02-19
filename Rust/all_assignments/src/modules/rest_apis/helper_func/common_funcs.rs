@@ -1,9 +1,9 @@
 use axum::{extract::Path, response::{IntoResponse, Response}, Json};
 
-use crate::modules::server_task::{users::model::Message, EMPLOYEE_DATA, STUDENT_DATA, USER_DATA};
+use crate::modules::rest_apis::{users::model::Message, EMPLOYEE_DATA, STUDENT_DATA, USER_DATA};
 
 
-pub async fn get_all(Path(var): Path<String>) -> Response {
+pub async fn get_all(Path(var): Path<(String)>) -> Response {
     if var=="user".to_string(){
         Json(
             Message{
@@ -35,9 +35,9 @@ pub async fn get_all(Path(var): Path<String>) -> Response {
     }
 }
 
-pub async fn get_item(Path(var): Path<String>) -> Response {
-    if var=="user".to_string(){
-        if let Some(user_to_be_displayed)=USER_DATA.write().unwrap().get(&var){
+pub async fn get_item(Path(var): Path<(String,String)>) -> Response {
+    if var.0=="user".to_string(){
+        if let Some(user_to_be_displayed)=USER_DATA.write().unwrap().get(&var.1){
         Json(
             Message{
                 status:3000,
@@ -58,8 +58,8 @@ pub async fn get_item(Path(var): Path<String>) -> Response {
         ).into_response()
     }
     }
-    else if var=="student".to_string() {
-        if let Some(std_to_be_displayed)=STUDENT_DATA.write().unwrap().get(&var){
+    else if var.0=="student".to_string() {
+        if let Some(std_to_be_displayed)=STUDENT_DATA.write().unwrap().get(&var.1){
             Json(
                 Message{
                     status:3000,
@@ -81,7 +81,7 @@ pub async fn get_item(Path(var): Path<String>) -> Response {
         }
     }
     else {
-        if let Some(emp_to_be_displayed)=EMPLOYEE_DATA.write().unwrap().get(&var){
+        if let Some(emp_to_be_displayed)=EMPLOYEE_DATA.write().unwrap().get(&var.1){
             Json(
                 Message{
                     status:3000,
