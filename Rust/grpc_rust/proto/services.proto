@@ -1,0 +1,74 @@
+syntax = "proto3";
+package services;
+// import "google/protobuf/empty.proto";
+
+
+service StudentService {
+    rpc get_student (Id) returns (Response);
+    rpc delete_student (Id) returns (Response);
+    rpc update_student (StudentData) returns (Response);
+    rpc get_all_student(Empty) returns (Response);
+    rpc create_student(StudentData) returns (Response);
+}
+
+
+service EmployeeService {
+    rpc get_employee (Id) returns (Response);
+    rpc delete_employee (Id) returns (Response);
+    rpc update_employee (EmployeeData) returns (Response);
+    rpc get_all_employee(Empty) returns (Response);
+    rpc create_employee(EmployeeData) returns (Response);
+
+}
+
+
+service UserService {
+    rpc get_user (Id) returns (Response);
+    rpc delete_user (Id) returns (Response);
+    rpc update_user (UserData) returns (Response);
+    rpc get_all_user(Empty) returns (Response);
+    rpc create_user(UserData) returns (Response);
+}
+
+message Id{
+    int32 id=1;
+}
+
+message Response {
+    int32 status=1;
+    string message=2;
+    string data=3;
+
+}
+
+  message EmployeeData {
+    int32 id = 1;
+    string name = 2;
+    int32 age = 3;
+    repeated string skills = 4;
+    optional string position = 5; // Optional in proto3, but can explicitly mark as optional if needed
+    optional int32 experience = 6; // Use 'optional' for explicit field presence if needed
+  }
+
+  message StudentData {
+    int32 id = 1;
+    string name = 2;
+    string phone = 3;
+    string email = 4;
+    string city = 5;
+    string address = 6;
+    repeated uint32 marks = 7; // Proto does not have u16, using uint32 instead
+    optional float percent = 8; // Optional in proto3, but can use 'float' directly
+    optional string grade = 9; // Optional in proto3, strings are empty if not set
+  }
+
+  message UserData {
+    int32 id = 1;
+    string name = 2;
+    repeated string skills = 3; // Vec<String> in Rust
+    string status = 4;
+    string language = 5;
+  }
+  message Empty{
+    
+  }
