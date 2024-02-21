@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize, PartialEq,Clone)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub struct User {
     pub id: i32,
     pub name: String,
@@ -9,7 +9,7 @@ pub struct User {
     pub language: Language,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq,Clone)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub enum StatusUser {
     #[serde(rename = "Online")]
     Online,
@@ -17,7 +17,7 @@ pub enum StatusUser {
     Offline,
 }
 
-#[derive(Debug, Serialize, Deserialize, PartialEq,Clone)]
+#[derive(Debug, Serialize, Deserialize, PartialEq, Clone)]
 pub enum Language {
     #[serde(rename = "English")]
     English,

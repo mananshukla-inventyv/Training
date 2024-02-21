@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 /// Enum representing different positions in a company.
-#[derive(Serialize, Deserialize, Debug,Clone)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub enum Position {
     #[serde(rename = "Software Developer")]
     SoftwareDeveloper,
@@ -15,7 +15,7 @@ pub enum Position {
 }
 
 /// Enum representing different skills an employee can have.
-#[derive(Serialize, Deserialize, Debug, PartialEq, Default,Clone)]
+#[derive(Serialize, Deserialize, Debug, PartialEq, Default, Clone)]
 pub enum Skills {
     #[serde(rename = "Rust")]
     #[default]
@@ -29,7 +29,7 @@ pub enum Skills {
 }
 
 /// Struct representing an employee in a company.
-#[derive(Serialize, Deserialize, Debug,Clone)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Employee {
     pub id: i32,
     /// The name of the employee.
